@@ -14,7 +14,7 @@ function palindrome(str){
     return true;
 }
 
-var str = "kupu-kupu";
-console.log("Is " + str + " palindrome ? " + palindrome(str));
-var str = "kasur ini rusak";
-console.log("Is " + str + " palindrome ? " + palindrome(str));
+var str = "kUpu-Kupu";
+console.log("Is '" + str + "' palindrome ? " + palindrome(str));
+var str = "kAsur ini Rusak";
+console.log("Is '" + str + "' palindrome ? " + palindrome(str));
